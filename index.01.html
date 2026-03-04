@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSB - Dark Silence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #000000, #1a1a1a);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border-bottom: 2px solid crimson;
+        }
+
+        nav {
+            background: #000;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #111;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px crimson;
+        }
+
+        h2 {
+            color: crimson;
+        }
+
+        footer {
+            background: #000;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 14px;
+            border-top: 1px solid crimson;
+        }
+
+        button {
+            background: crimson;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    CSB "Dark Silence"
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Welcome to my official website.</p>
+        <p>Name: DARK SAILENCE </p>
+        <p>Team name : Cyber Sentinel Bangladesh</p>
+        <p>Location: Bangladesh</p>
+        <p>This website represents my personal profile and professional details.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>My Skills</h2>
+        <p>✔ Web Development</p>
+        <p>✔ Cyber Security</p>
+        <p>✔ Ethical Research</p>
+        <p>✔ Social Media Management</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact Me</h2>
+        <p>Email: darksilence@simaenaga.com</p>
+        <p>Phone: +880**********</p>
+        <button onclick="showMessage()">Send Message</button>
+    </div>
+</section>
+
+<footer>
+    © 2026 CSB "Dark Silence" | All Rights Reserved
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thank you for visiting CSB - Dark Silence!");
+    }
+</script>
+
+</body>
+</html>
